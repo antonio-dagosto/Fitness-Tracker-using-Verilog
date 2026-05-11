@@ -1,25 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 10/30/2024 12:53:19 PM
-// Design Name: 
-// Module Name: Rotation
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
 module Rotation(
 input clk100Mhz, reset,
 input [15:0] step_count_bcd, distance_bcd,
